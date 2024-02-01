@@ -1,0 +1,355 @@
+
+
+
+Amplios conocimientos en programación en Java y experiencia sólida con Spring Boot. Experiencia comprobable en desarrollo de Lambdas y step functions en AWS. Experiencia en pruebas unitarias utilizando JUnit, Jasmine y Karma. conocimientos en Scrum Developer. Integración de servicios AWS, como S3, DynamoDB, API Gateway, y más.
+
+Implementación y gestión de eventos mediante servicios como AWS EventBridge.
+
+ 
+
+Por favor describir funciones del cargo:
+
+Diseño, desarrollo e implementación de AWS Lambda Functions.
+
+Creación y orquestación de flujos de trabajo con AWS Step Functions.
+
+Integración de servicios AWS, como S3, DynamoDB, API Gateway, y más.
+
+Implementación y gestión de eventos mediante servicios como AWS EventBridge.
+
+Optimización de funciones para un rendimiento eficiente y costos bajos.
+
+Desarrollo Backend:
+
+Desarrollo avanzado en Java y utilización de características modernas de la plataforma.
+
+Experiencia sólida en el desarrollo de aplicaciones con Spring Boot.
+
+Diseño y construcción de APIs RESTful y servicios web escalables.
+
+Implementación de patrones de diseño y prácticas de desarrollo ágil.
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+		NOTAS
+
+-Estudiar si es posible la guia de Java y Spring Boot
+
+
+
+
+		# Preguntas
+
+-Cuales son los servicios de AWS que mas se integran?
+-
+
+-Hablar sobre el proyecto de microservicios, usar tecnisismos
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+			CONTENIDO
+
+
+-Trayectoria profesional y academica
+-
+-Funciones orientadas al cargo
+-Explicacion de cada funcion
+
+
+-Porque el sector bancario
+-Porque quiero trabajar con ellos
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+			
+		## Trayectoria profesional y academica
+
+
+2017 Universidad Nacional
+
+Hace 6 anios inicie a crear proyectos de programacion
+5 desarrollar sitios web con HTML, CSS Y JS
+4 anos inicie con el stack de MERN
+3 Anos inicie con Java y SpringBoot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+
+		## Funciones orientadas al cargo
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+
+		## Explicacion de cada funcion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+		## Porque el sector bancario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+		## Porque quiero trabajar con ellos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+
+Como ha sido tu experiencia con estas herramientas
+A traves de lo que he hecho ...
+mil usuarios consultaran la edad
+
+Creciemintos profesional, un reto, creciendo, una empresa como estas, una operadora de pagos, manejan mucha informacion, como es el pago, la cantidad de operaciones
+
+La motivacion es crecimiento profesional y el reto
+
+No decir que quiero mejor salario.
+
+
+Preguntarme
+-salario
+-modaliad presencial: si estoy dispuesto
+-de acuerdo contrato fijo un ano
+-Confirmar experiecnia 18 meses
+
+
+Actitud
+Conocimiento
+Experiencia
+Prueba tecnica
+
+
+Consideras que asopagos es una excelente entidad, portafolio, pagina web, servicios -> veo un campo de aprendizaje
+
+Estabilidad laboral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

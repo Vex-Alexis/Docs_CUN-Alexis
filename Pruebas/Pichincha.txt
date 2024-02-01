@@ -1,0 +1,313 @@
+git config --global user.name "Alexis-Chavarria"
+git config --global user.email "johan_chavarria@cun.edu.co"
+
+git config --global user.name "Vex-Alexis"
+git config --global user.email "joalexiscb@gmail.com"
+
+## En el navegador debe estar autenticada la cuenta nueva o diferente.
+
+************************************************************************
+			TEMAS
+************************************************************************
+
+-Clave de particion y clave de rango
+
+
+
+
+
+
+## REVISIONES
+-Usar Lombok en los DTOs?
+
+
+
+
+************************************************************************
+			NOTAS
+************************************************************************
+
+Sistema de gestion de cuentas bancarias con dos servicios
+
+Microservicio 1: Gestion de cuentas bancarias
+Microservicio 2: Gestion y registro de transacciones
+
+
+	## REPOSITORIOS
+
+# Microservicios
+pichincha-account-service
+pichincha-transaction-service
+
+# Frontend
+pichincha-frontend
+
+
+
+
+
+
+************************************************************************
+			CONTENIDO
+************************************************************************
+
+
+
+
+
+
+
+************************************************************************
+			DESARROLLO
+************************************************************************
+
+-AWS : DynamoDB, IAM
+-Dependencias
+-application.properties
+-Paquetes (config, controller, dto, entity, service, repository, exception)
+-Clases 
+	DynamoConfig, CuentaBancaria
+
+
+
+
+************************************************************************
+			AWS
+************************************************************************
+
+## DynamoDB - Tablas 
+
+pichincha_CuentasBancarias
+pichincha_Transacciones
+
+
+## IAM
+-Crear grupo y elegir politicas.
+
+Grupo	: DynamoDB_Full-Access
+Usuario	: admin_dynamo
+
+-Crear usuario y asignar grupo
+
+** Clave de acceso y clave de acceso secreta
+AKIAW7YBK325JHMGTGX5
+o+x3tJCCzF3FqW8RMKe2E68H/ex2imRbwxF6i1rS
+
+** Consola
+https://480502275770.signin.aws.amazon.com/console
+admin_dynamo
+rP9I4(_M
+
+
+************************************************************************
+			Dependencias
+************************************************************************
+
+-Spring Web
+-Lombok
+-DevTools
+
+-Buscar: dynamo pom.xml
+
+
+<dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-bom</artifactId>
+                <version>1.11.245</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+</dependencyManagement>
+
+
+
+<dependency>
+	<groupId>com.amazonaws</groupId>
+	<artifactId>aws-java-sdk-dynamodb</artifactId>
+</dependency>
+
+
+<dependency>
+  <groupId>com.github.derjust</groupId>
+  <artifactId>spring-data-dynamodb</artifactId>
+  <version>5.1.0</version>
+</dependency>
+
+
+# Dynamo endpoint
+dynamodb.us-east-2.amazonaws.com
+
+
+
+
+### application.properties
+
+amazon.dynamodb.endpoint=dynamodb.us-east-2.amazonaws.com
+amazon.aws.accesskey=AKIAW7YBK325JHMGTGX5
+amazon.aws.secretkey=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
+amazon.aws.region=us-east-2
+
+
+************************************************************************
+			ENTIDADES
+************************************************************************
+
+# BankAccount
+-accountId
+-accountType
+-accountNumber
+-accountHolderName
+-balance
+
+# Transaction
+-transactionId
+-transactionType		-> DEPOSITO, RETIRO, TRANSFERENCIA
+-originAccountNumber
+-destinationAccountNumber
+-transactionStatus		-> PENDIENTE, RECHAZADA, EXITOSA
+
+
+
+
+
+
+************************************************************************
+			PROMPTs
+************************************************************************
+
+
+
+
+
+
+
+
+
+
+************************************************************************
+			PROMPTs
+************************************************************************
+
+
+# Prueba tecnica chatGPT
+Tengo los requesitos de un proyecto de desarrollo de software que debo desarrollar, el objetivo en este proyecto es demostrar mis conocimientos y capacidades para implementar funcionalidades clave de un banco, como la creacion de cuentas, las transacciones, consulta de saldos, entre otros que desee implementar.
+
+Requisitos:
+1. Desarrollar una arquitectura de microservicios utilizando Java SpringBoot para el backend del sistema bancario
+2. Implementar una funcion lambda con Python para el procesamiento de transacciones especificas.
+3. Utilizar DynamoDB como basse de datos para almacenar la informacion de las cuentas bancarias y las transacciones.
+
+
+
+************************************************************************
+			PROMPTs
+************************************************************************
+
+##
+ahora, como quedaria la arquitectura para el api
+
+## Prioridad operadores logicos
+El proyecto es un sistema de gestion de cuentas bancarias
+
+
+##
+Me gustaria retornar de mi controlador un objeto asi:
+
+{
+"status" : true,
+"code"  : 200,
+"results" : []
+}
+
+Como lo podria hacer?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,577 @@
+
+
+************************************************************************
+************************************************************************
+
+# Conceptos
+-Scoring: evaluación de riesgo crediticio 
+	-Data: nombre, direccion, historial crediticio, ingresos, deudas ...
+-FTP	: protocolo de transferencia de archivos 
+-JMS (Java Message Service): Estandar de mensajeria entre sistems distribuidos
+	-medio a traves del cual se realiza la comunicacion entre el sistema que solicita la puntuacion crediticia y el sistema de scoring.
+
+
+
+************************************************************************
+************************************************************************
+
+		## NOTAS
+
+-Como abordar un problema de un arquitecto de soluciones?
+-Sacar una lista de los problemas
+-Sacar una lista de lo que debo hacer (conceptos, entregables, ...)
+-
+
+
+
+************************************************************************
+************************************************************************
+
+		## CONTENIDO
+
+-Resumen
+-Flujo
+-Problemas a solucionar
+-Entregables y requerimientos
+-
+-
+-
+-Prompts
+
+
+************************************************************************
+************************************************************************
+
+
+		## RESUMEN
+
+-Entidad financiera tiene app web dentro de su red de oficinas (L-V: 9-4)
+-App genera bastantes manualidades
+-App requiere infor de entidades externas que se obtiene asincrona
+-El proceso no se puede hacer en linea y se pierden oportunidades de venta
+
+
+# Para dar de altos estos creditos el flujo es el siguiente
+
+1. Validar que el documento presentado si perteneza al cliente
+-El sistema hace una lectura biometrica de la huella
+-Valida con una base de datos interna la titularidad
+	-Pero, muchos clientes no estan registrados en esta base
+-OBLIGA: conectarse a una entidad del gobierno para validar la autenticidad
+-Exponen un servicio rest/json, tiene un costo de $1000 por consulta
+-Para evitar reconsultas, se guarda la respuesta en la base de datos
+
+2. 
+-Al validar el cliente se le hace proceso de scoring
+-Para esto se requiere infor de entidad tercera a traves de un FTP
+-El banco envia data del cliente por FTP
+-En respuesta se recibe un archivo con los datos del cliente
+-Estos datos son necesarios como input para llamar al sismtea de scoring a traves de JMS
+
+
+3. 
+-Aprobado el scoring, el asesor ingresa a otro sistema con autenticacion
+-Se da de alta el credito y se abona el dinero
+
+4.
+-Al dar de alta el credito se envia correo al cliente confirmando proceso.
+
+
+## DATOS ADICIONALES:
+-Aplicacion de 3 servidores: $10'.000.000 (diez millones)
+-Balanceador para dos dias del mes, el resto de dias operan a un 10% capacidad
+
+-En cloud la infraestructura cobra $60.000 (sesenta mil) la hora por un servidor con las mismas caracteristicas tecnicas
+
+-Otro sistema de la entidad requiere tambien la validacion biometrica
+-Esto se soluciono con una conexion JMS a la aplicacion que se expuso anteriormente (supongo que entidad del gobierno) para validar esta biometria
+
+-Entidades externas dispuestas a realizar cualquier desarrollo que se requiera
+
+
+************************************************************************
+************************************************************************
+
+		## FLUJO
+
+-Inicia el proceso de autenticación al proporcionar su huella
+-Dispositivo de lectura biometrica para escanear la huella del usuario
+-Sistema huella escaneada y compara con la infor almacenada en la BD
+	(Contiene registros biometricos previamente registrados)
+	(patrones, arcos, bucles, y otros detalles específicos)
+
+-Validado, envia data por FTP a entidad externa para proceso de scoring
+-Se recibe archivo con datos del usuario necesario para llamar al sistema de scoring a traves de JMS
+
+-Aprobado el scoring, asesor ingresa a sistema con autenticacion para dar de alta el credito
+
+-Se envia correo al usuario
+
+
+
+
+## 
+
+Ayudame con este caso para una arquitectura de soluciones, la idea es modelar una reingenieria, se puede utilizar cualquier tecnologia y la entidades involucradas estan dispuestas a realizar cualquier desarrollo.
+
+
+# CASO:
+
+Entidad financiera tiene actualmente una aplicacion web para dar de alta creditos de consumo, pero dentro de su red de oficinas la cual opera entre semana en un horario limitado.
+Esta aplicacion genera bastantes manualidades y debido a que muchos casos requieren informacion de entidades externas que se obtiene asincrona, el proceso no se puede hacer y se pierden oportunidades de venta.
+
+1. El sistema realiza validacion biometrica del usuario contra una base de datos interna, en caso que no este registrado hacemos una consulta externa a un servicio REST/JSON de una entidad gubernamental, cada consulta por usuario tiene un valor de mil pesos colombianos y esta respuesta se guarda en la base de datos.
+
+2. Al validar el cliente, se ahce proceso de scoring, para el cual se requiere informacion del usuario que nos entrega una entidad tercera a traves de un FTP y en respuesta se recibe un archivo con los datos del cliente, datos necesarios para llamar al sistema de scoring a traves de JMS
+
+3. Una vez aprobado el scoring el asesor de la oficina ingresa a otro sistema, el cual tiene su propia autenticacion para dar de alta el credito al usuario.
+
+4. Una vez de alta el credito, se le envia correo de confirmacion al usuario.
+
+
+# Datos adicionales:
+
+-Actualmente la aplicacion esta desplegada en tres servidores, el costo mensual es de 10 millones de pesos mensuales que estan dentras de un balanceador, durante dos dias del mes presenta un alto volumen de peticiones, el resto de dias, las maquina operan a un 10% de su capacidad
+
+-Otro sistemade la entidad finaciera requiere tambien la validacion de biometria, para lo cual se usa la aplicacion externa por medio de JMS
+
+
+# Consideraciones:
+-Se requiere que el nuevo sistema debe poder ser operado por una fuerza de ventas externas que usa tablets.
+-La seguridad es muy importante para la entidad financiera
+-Se requieren generar estadisticas de los tiempos de gasta el proceso
+
+
+
+************************************************************************
+************************************************************************
+
+
+		## PROBLEMAS A SOLUCIONAR
+
+**Dar de alta creditos de consumo (Se pierden oportunidades de venta)
+
+-Automatizar el proceso de alta de creditos (App genera muchas manualidades)
+-Proceso no se puede hacer en linea por data asincrona de entidades externas
+-Usuarios no registrados: $1.000 pesos para validar su autenticidad, save DB.
+
+
+
+
+
+
+
+
+		## Falencias
+
+-Unicamente se dan de alta creditos en las oficinas (L-V: 9-4)
+
+-Se envia infor cliente por FTP a entidad externa para obtener archivo con datos de cliente
+-Por medio de JMS se llama al sistema de scoring
+
+-Aprobado scoring, asesor ingresa a otro sistema con autenticacion para dar de alta el credito
+
+-Otro sistema usa la validacion biometrica con JMS
+
+
+
+# Costo:
+-10 millones por dos dias con un alto volumen y el resto 10% de su capacidad
+
+
+# CLOUD:
+-Infraestructura cloud: $60,000 la hora, 43millones al mes
+
+
+
+
+************************************************************************
+************************************************************************
+
+		## ENTREGABLES Y REQUERIMIENTOS
+
+# Modelar una reingenieria (cualquier tecnologia que se quiera implementar)
+
+-El nuevo sistema debe poder ser operado por una fuerza de ventas externas que usa tablets
+-La seguridad es fundamental
+-Se requieren generar estadisticas de los tiempos que gasta el proceso
+
+
+# Solucion a entregar:
+
+-Diagrama de capas tecnicas
+-Detallar la descripcion con su respectiva descripcion
+-Diagrama(s) de secuencia de apoyo
+
+
+
+-Seguro
+-Rendimiento optimo
+-Escalable
+
+
+
+************************************************************************
+************************************************************************
+
+		## Solucion
+
+# Modelar Reingenieria
+-Análisis de Procesos
+-Identificación de Objetivos
+-Rediseño de Procesos
+-Modelado de Escenarios
+-Evaluación de Impacto
+-Implementación Gradual
+-Medición y Ajuste
+
+
+
+		## Documento
+
+1. Introduccion
+2. Analisis situacional
+3. Objetivos de reingenieria
+4. Alcance del proyecto
+5. Requisitos del sistema
+
+
+
+
+		
+
+
+
+
+
+
+************************************************************************
+************************************************************************
+
+
+		## Diagrama
+
+-Aplicacion web y Movil
+-
+
+
+
+
+		## Diagrama de secuencia
+
+-Cliente
+
+
+
+-Servicio web
+
+
+
+
+*Al realizar la solicitud asincrona debes llevar un token (con identificador unica que debe estar pendiente) internamente para luego esperar la respuesta asincronamente con ese mismo token o id unico.
+
+
+
+************************************************************************
+************************************************************************
+
+
+		## PROMPTS
+
+# Entidad financiera: solicitud
+-Explicame esta: "Modelar una reingenieria"
+
+-estructurado el documento que un arquitecto de soluciones
+
+
+
+
+
+
+
+-Tengo el siguiente problema ... debo plantear una reingenieria, que alternativas son la mejor solucion escalabe y rentable
+
+
+
+
+
+
+
+
+************************************************************************
+************************************************************************
+
+
+		## BORRADOR
+
+
+
+
+La reingeniería propuesta tiene como objetivo principal mejorar significativamente la eficiencia y la automatización del proceso de otorgamiento de créditos de consumo en la entidad financiera. Actualmente, el sistema existente presenta desafíos notables en términos de manualidades, limitaciones en la operatividad de fuerza de ventas externas, y pérdida de oportunidades de venta debido a procesos asincrónicos. La reingeniería se enfocará en abordar estos desafíos, optimizando los procesos y mejorando la experiencia del usuario.
+
+
+
+Contexto Actual del Sistema:
+
+En el contexto actual, la entidad financiera opera con una aplicación web para la gestión de créditos de consumo en sus oficinas, lo cual se ve limitado por horarios operativos y procesos asincrónicos. La validación biométrica, el scoring, y el alta de crédito involucran consultas a entidades externas, generando costos y ralentizando el flujo del proceso. La aplicación también presenta periodos de bajo rendimiento y costos mensuales significativos.
+
+
+
+
+Objetivos de la Reingeniería:
+
+La reingeniería tiene como objetivo principal:
+
+1. Optimización y Automatización: Eliminar manualidades innecesarias, optimizar los procesos existentes y aumentar la automatización.
+2. Escalabilidad: Diseñar una arquitectura que permita escalabilidad para gestionar aumentos de volumen de operaciones.
+3. Operatividad Externa: Facilitar la operatividad de la fuerza de ventas externas mediante una aplicación móvil eficiente y segura.
+4. Reducción de Costos: Minimizar los costos asociados con consultas externas y mejorar la eficiencia para reducir gastos operativos.
+
+******************************************************
+
+Análisis Situacional
+
+Evaluación del Estado Actual:
+
+El sistema actual presenta desafíos en la eficiencia debido a procesos manuales y asincrónicos, así como altos costos asociados con consultas externas.
+
+
+Desafíos y Problemas Actuales:
+
+Manualidades significativas en la aplicación web.
+Limitaciones en la operatividad externa.
+Pérdida de oportunidades por procesos asincrónicos.
+Costos elevados asociados con consultas externas.
+
+
+Análisis de Procesos Actuales y Áreas de Mejora:
+
+Validación biométrica asincrónica y costosa.
+Scoring dependiente de procesos FTP y JMS.
+Alta de crédito con procesos manuales y autenticación adicional.
+
+
+
+Objetivos de Reingeniería:
+Definición de Objetivos Específicos:
+
+Automatización Biométrica: Implementar un sistema de validación biométrica eficiente y económico para usuarios no registrados.
+Proceso de Scoring Optimizado: Reemplazar procesos FTP y JMS por una integración más directa y eficiente.
+Sistema de Alta de Crédito Automatizado: Desarrollar un sistema de alta de crédito completamente automatizado, eliminando tareas manuales.
+Operatividad Externa Mejorada: Desarrollar una aplicación móvil para la fuerza de ventas externas que permita operaciones eficientes.
+Reducción de Costos: Implementar estrategias para reducir los costos asociados con consultas externas y operación del sistema.
+
+
+
+
+
+*******************************
+
+
+Alcance del Proyecto
+Áreas o Módulos Reingenierizados:
+
+Validación biométrica.
+Proceso de scoring.
+Sistema de alta de crédito.
+Interfaz para fuerza de ventas externas.
+Sistema de envío de correos de confirmación.
+
+Partes Interesadas Afectadas:
+
+Asesores de la entidad financiera.
+Fuerza de ventas externa.
+Usuarios de la aplicación web interna.
+
+
+Requisitos del Sistema:
+Requisitos Funcionales:
+
+Sistema de validación biométrica eficiente y económico.
+Integración directa y eficiente con entidades externas para scoring.
+Sistema de alta de crédito completamente automatizado.
+Aplicación móvil para fuerza de ventas externas.
+Servicio automatizado de envío de correos de confirmación.
+
+Requisitos No Funcionales:
+
+Escalabilidad para gestionar aumentos de volumen de operaciones.
+Seguridad robusta en todas las capas del sistema.
+Eficiencia y rendimiento óptimo.
+Generación de estadísticas detalladas de los tiempos de ejecución y operaciones realizadas.
+Interfaz de usuario amigable y compatible con tablets.
+
+
+
+
+
+
+
+
+Propuesta de Reingeniería
+
+Diseño Conceptual
+
+Descripción de la visión futura del sistema.
+
+
+La visión futura del sistema se centra en una experiencia de usuario fluida y automatizada desde la validación biométrica hasta el alta de crédito. Se espera una arquitectura escalable, segura y eficiente que permita operaciones sin fisuras tanto para el personal interno como para la fuerza de ventas externas. La validación biométrica será rápida y rentable, el scoring será instantáneo, y el proceso de alta de crédito será completamente automatizado.
+
+
+
+Diagramas conceptuales que representen la nueva arquitectura.
+
+
+Diagrama de Capas Técnicas
+
+
+
+**************************************************************
+
+Descripción de Capas Técnicas:
+
+Capa de Presentación
+
+La interfaz de usuario proporciona acceso a las funciones principales del sistema, adaptada para su uso por asesores internos a través de la aplicación web y por la fuerza de ventas externa mediante la aplicación móvil.
+
+
+Capa de Lógica de Negocio
+
+La lógica de negocio se divide en servicios especializados:
+-El servicio de Validación Biométrica gestiona la autenticación y almacenamiento de registros biométricos.
+-El servicio de Scoring realiza la evaluación crediticia y procesa la respuesta de la entidad tercera.
+-El servicio de Alta de Crédito Automatizado maneja la creación automática de créditos con validaciones y autorizaciones.
+-El servicio de Envío de Correos de Confirmación automatiza la notificación a los usuarios.
+
+
+
+Capa de Integración
+
+Adaptadores específicos se encargan de integrar el sistema con entidades externas, como la entidad gubernamental, mediante REST para la validación biométrica, y con la entidad tercera mediante JMS para el scoring. Esta capa garantiza una comunicación eficiente y segura.
+
+
+
+Capa de Datos
+
+Almacena y gestiona los datos necesarios para el sistema, incluyendo información de usuarios, registros biométricos, datos de scoring y detalles de créditos. Se implementa un mecanismo de caché para optimizar las consultas biométricas recurrentes y reducir costos.
+
+
+
+
+
+
+
+Modificación y Mejora de Procesos:
+
+Validación Biométrica:
+
+Introducción de un servicio de validación biométrica eficiente y económico.
+
+Proceso de Scoring:
+Reemplazo de procesos FTP y JMS por una integración directa y eficiente con la entidad tercera.
+
+Sistema de Alta de Crédito:
+Desarrollo de un sistema completamente automatizado, eliminando tareas manuales y redundantes.
+
+Operatividad Externa:
+Creación de una aplicación móvil amigable y eficiente para la fuerza de ventas externa.
+
+Envío de Correos de Confirmación:
+Implementación de un servicio automatizado para enviar correos de confirmación.
+
+
+
+
+
+
+Diagrama de Secuencia:
+
+A continuación, se describe un diagrama de secuencia simplificado para el proceso de alta de crédito automatizado
+
+
+1. Asesor Inicia Solicitud de Crédito:
+Descripción: El asesor inicia el proceso desde la aplicación web.
+Actores: Asesor Interno
+
+
+2. Validación Biométrica del Usuario:
+Descripción: Se realiza la validación biométrica del usuario, consultando internamente y, si es necesario, externamente.
+Actores: Servicio de Validación Biométrica, Entidad Gubernamental
+
+
+3. Scoring y Evaluación Crediticia:
+Descripción: Se solicita el scoring a la entidad tercera y se procesa la respuesta.
+Actores: Servicio de Scoring, Entidad Tercera
+
+
+4. Alta de Crédito Automatizado:
+Descripción: Se inicia el proceso automatizado para dar de alta el crédito.
+Actores: Servicio de Alta de Crédito Automatizado
+
+
+5. Envío de Correo de Confirmación:
+Descripción: Se envía automáticamente un correo de confirmación al usuario.
+Actores: Servicio de Envío de Correos de Confirmación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mi entrega correspondiente a la prueba técnica solicitada
+
+
+Adjunto a este correo electrónico, encontrará mi propuesta y solución para la prueba técnica de arquitectura de soluciones. En resumen, mi entrega aborda los siguientes aspectos:
+
+
+
+
+
+Introducción
+Análisis Situacional
+Objetivos de Reingeniería
+Alcance del Proyecto
+Propuesta de Ingeniería
+Diagrama de Capas Técnicas
+Descripción del Diagrama
+Descripción del Diagrama de Secuencia
+
+
+
+Gracias por la oportunidad, estoy disponible para cualquier pregunta o discusión adicional sobre mi propuesta y enfoque presentado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

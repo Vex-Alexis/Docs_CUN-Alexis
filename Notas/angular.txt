@@ -1,0 +1,217 @@
+
+
+ng s --host 0.0.0.0
+
+***************************************************************************
+# ANGULAR
+
+1. Instalar Node.js, Angular usa npm para manejar dependencias
+2. Instalar Angular CLI globalmente en la maquina usando npm
+
+	## npm install -g @angular/cli
+
+3. Crear un nuevo proyecto y navega al directorio
+
+	## ng new nombre-de-tu-proyecto
+	-Preguntas: agregar enrutamiento, elegir Hoja de estilos, etc.
+
+	## cd nombre-de-tu-proyecto
+
+4. Ejecutar la aplicacion
+
+	## ng serve
+	http://localhost:4200/
+
+5. Aprender y practicar
+
+	## Documentacion Oficial: https://angular.io/docs
+
+
+
+***************************************************************************
+
+# ANGULAR MATERIAL
+
+
+
+
+
+
+
+
+# BOOSTRAP y JQUERY
+
+npm install jquery bootstrap --save
+
+
+******************************************************************************
+Que practicas usa o que implementa para mantener un codigo limpio
+******************************************************************************
+
+			PROYECTO - LIBRARY MANAGEMENT
+
+
+Backend_Library-Management
+Frontend_Library-Management
+
+
+ng new Frontend_Library-Management
+cd Frontend_Library-Management
+
+
+
+## COMPONENTES
+ng g c modules/book/components/book-form -s
+ng g c modules/book/components/book-list -s
+ng g c modules/user/components/user-form -s
+ng g c modules/user/components/user-list -s
+ng g c shared/components/header -s
+ng g c shared/components/footer -s
+
+ng g c layout/main -s
+
+
+# CORE
+ng g c core/authentication/components/login
+ng g s core/services/api
+
+
+# MODELOS
+ng g c modules/book/models/bookModel -s
+
+
+
+
+#Librerias
+HttpClientModule	@angular/common/http
+
+
+******************************************************************************
+			DESARROLLO
+******************************************************************************
+
+# Arquitectura y archivos
+# Inyectar todos los componentes en app-routing.module y crear RUTAS
+
+
+
+
+
+
+
+
+
+******************************************************************************
+			PROMPTS
+******************************************************************************
+
+### Arquitectura Angular
+Ahora dame una arquitectura para un proyecto grande con muchos requerimientos, dame un ejemplo para un proyecto ficticio.
+
+###
+Es posible tener en mi mismo computador varios proyectos de angular con diferentes versiones?
+
+
+
+
+
+
+
+
+
+
+******************************************************************************
+******************************************************************************
+******************************************************************************
+
+
+
+
+
+{
+    "headers": {
+        "normalizedNames": {},
+        "lazyUpdate": null
+    },
+    "status": 400,
+    "statusText": "OK",
+    "url": "https://localhost:7040/api/Auth/login",
+    "ok": false,
+    "name": "HttpErrorResponse",
+    "message": "Http failure response for https://localhost:7040/api/Auth/login: 400 OK",
+    "error": {
+        "status": false,
+        "code": 400,
+        "message": "Credenciales incorrectas."
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

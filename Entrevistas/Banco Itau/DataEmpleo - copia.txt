@@ -1,0 +1,956 @@
+Nomina-Support.CO@softwareone.com <Nomina-Support.CO@softwareone.com>;
+
+Buen día,
+Soy Alexis Chavarria exempleado de SoftwareOne, me gustaría solicitar de su ayuda para obtener certificación laboral junto a las funciones desempeñadas, por favor.
+
+Nombre: Johan Alexis Chavarria Bustos
+Cedula: 1233499868
+Tel: 322 261 4015
+
+
+Logro: 
+Implementación de un sistema de monitoreo usando Power BI que incrementó la productividad y proactividad del equipo.
+
+
+
+******************************************************************************************************************************
+
+Mostrar
+	-Quien soy, que hago, en que entorno laboro, porque mi trabajo es de calidad, objetivo a largo plazo, con interes en un trabajo estabilidad, crecimiento y aprendizaje. 
+
+** Tener dos perfiles, uno largo y uno corto
+
+
+### PERFIL
+
+Desarrollador FullStack experto en el diseño, análisis y desarrollo de software con experiencia en Java, SpringBoot, Angular y Bases de Datos. Competente en Microservicios, Git, CI/CD, Docker. Implemento soluciones en la nube (Azure/AWS), bajo entornos multidisciplinarios ágiles utilizo Scrum y Kanban para cumplir exitosamente el plazo de proyectos.
+
+
+
+Mi objetivo a largo plazo es especializarme como Cloud Solutions Architect. Tengo profundo interés en estabilidad, crecimiento y oportunidades desafiantes.
+
+haciendo uso de patrones de arquitectura, código limpio
+
+
+Competente para desarrollar bajo entornos agiles
+
+Con conocimiento y experiencia practica en Azure, AWS
+
+Competente en Microservicios, API REST, React, Node.js, Python,  angular material. Conocimientos en DevOps, JUnit
+
+Desarrollador de software con experiencia en Java, SpringBoot, Angular, JavaScript utilizando frameworks como SpringBoot y Angular, 
+
+
+
+Hábil en planificación, ejecución y cumplimiento de plazos de proyectos. Comunicador eficaz, experto en estimación de tareas y colaboración. Buscando especialización como Arquitecto de Soluciones certificado con el objetivo a largo plazo de convertirme en un especialista en Machine Learning.
+
+
+Emocionado por enfrentar desafíos, compartir conocimientos y crecer a través del trabajo en equipo.
+
+Emocionado por aprender en nuevos entornos tecnologicos y contribuir con mis habilidades a proyectos exitosos.
+
+
+###
+Persona apasionada por diseño y desarrollo de software, valoro el mínimo detalle. Formación en desarrollo de aplicaciones web, diseñadas en arquitectura MVC, patrón de diseño DAO, lenguaje de programación JAVA, persistencia de datos en BD e implementando HTML, CSS y JS
+
+###
+Desarrollador apasionado por el diseño, análisis y desarrollo de software con enfoque sólido en Java, SpringBoot, Angular y bases de datos. Competente en Microservicios, Git, CI/CD, docker, haciendo uso de patrones de arquitectura, código limpio, trabajando en plataformas azure y aws, bajo entornos agiles con scrum o kanban. Mi objetivo a largo plazo es especializarme como Cloud Solutions Architect. Tengo profundo interés en estabilidad, crecimiento y oportunidades desafiantes.
+
+
+
+
+
+
+
+
+Que Ofrezco:
+
+Ademas de ganar un trabajador que esta buscando crecer, en constante aprendizaje, tendran un empleado con iniciativa para dar solucion a las requerimientos del negocio que este enfrentando el equipo.
+
+
+Soy una persona competente que por mi capacidad de persistencia estoy en constante aprendizaje y crecimiento, y por eso me gustaria que la empresa me apoye con mi crecimiento, dandome la oportunidad de incolucrarme en actividades mas desafiantes para mi cargo, ..., seria enriquecedor para mi porque voy a estar aprendiendo y mejorando como desarrollador y ademas puedo contribuir mucho mas a la compañia 
+
+
+
+
+
+
+
+
+
+### EXPERIENCIA
+
+
+Analista de software
+
+
+
+Desarrollador Lider
+Proyecto personal
+
+-Modelamiento de base de datos, integracion por medio de servicios REST, GraphQL, desarrollo backend en Java y SpringBoot, desarrollo frontend en Angular, implementacion de componentes, modulos, uso de observes
+
+
+
+### EDUCACION
+
+
+
+
+### CONOCIMIENTOS	> Desarrollo IA
+
+*** # investigar acerca de tendencias y desarrollos en IA 
+
+*****
+fuerte interés por los desarrollos recientes en IA, motivado por estar al tanto de las principales tendencias de IA
+
+***
+conocimientos en investigaciónd e tendencias sobre inteligencia artificial en fuentes como blogs, foros, revistas especializadas
+***
+Conocimientos avanzados en manejo de algún lenguaje de programación (Python, R, Julia, Javascript, etc)
+--enfocado particularmente en el consumo de servicios externos
+***
+Conocimiento avanzados en creación de modelos estadísticos y de aprendizaje automático.
+***
+Conocimientos intermedios sobre modelos de inteligencia artificial
+
+
+
+	### Habilidades
+
+***
+Capacidad de divulgación de temas técnicos a un público general.
+
+
+
+	### Funciones
+
+***
+ investigar acerca de tendencias y desarrollos en IA que puedan ser aplicables a ambientes educativos.
+***
+Desarrollar o coordinar la creación de experimentos que permitan validar las tendencias y aplicaciones en IA en el ambiente educativo.
+***
+Comunicarse permanentemente con de la red central para validar el desarrollo de los experimentos y aplicaciones.
+***
+Divulgación acerca de los desarrollos actuales de IA en educación.
+***
+
+
+********************************************************************************************************************************
+				Contactar
+********************************************************************************************************************************
+
+Desarrollador Full Stack Java Angular AWS
+maria.,ortiz@sophossolutions.com
+
+
+********************************************************************************************************************************
+				NOTAS
+********************************************************************************************************************************
+
+- Analista desarrollador
+- Analista de desarrollo de software
+- Desarrollador Java
+- Desarrollador Junior
+- Backend Java
+- Soporte java
+- Ingeniero desarrollo java
+
+********************************************************************************************************************************
+				CONTENIDO
+********************************************************************************************************************************
+
+- Datos
+- Los hacks
+- Presentacion
+- Primeras impresiones
+- Perfil
+- Experiencia
+- Tecnologia
+
+
+
+
+********************************************************************************************************************************
+				Datos
+********************************************************************************************************************************
+
+Johan Alexis Chavarria Bustos
+alexischavarria@hotmail.com
+3222614015
+
+1233499868
+Carrera 78I 73A - 62
+
+2'500.000 - 3'500.000 pesos colombianos.
+3'000.000 - 4'000.000 pesos colombianos.
+
+
+
+Programador de aplicaciones y servicios para la nube
+
+
+Dame un ejemplo ficticio de la experiencia de un año de un desarrollador de datos, breve, corto e interesante con ___
+
+
+********************************************************************************************************************************
+				Los hacks
+********************************************************************************************************************************
+
+- Aun no he tenido la oportunidad de trabajar con ___, sin embargo
+-Si, pero lo que mas me gusta es que me pongan hacer cosas dificiles para no aburrirme
+
+
+********************************************************************************************************************************
+				Presentacion
+********************************************************************************************************************************
+
+Educacion
+Perfil	: Soy, Conocimientos o Labor, porque soy bueno, pequeña linea del tiempo, donde trabajo y en equipo, objetivos, que me caracteriza, lo que aporto y busco.
+
+-------------------------------------------
+
+Soy desarrollador full stack con Java, SpringBoot, C#, ASP.NET, Angular, JavaScript, TypeScript, bases de datos relacionales y no relacionales SQLserver, MySQL, OracleDB, PostgreSQL, MondoDB (Atlas).
+
+
+
+Soy desarrollador de software full stack apasionado por analisis, diseño, implementacion, despliegue y en general por el ciclo de vida del desarrollo de software. Mi área de especialización es el desarrollo Frontend y Backend en Java, SpringBoot y Angular.
+
+
+
+Siguiendo principios de diseño y desarrollo web, codigo limpio, patrones de diseño y arquitecturas robustas y escalables
+
+
+Yo inicie en la programacion cuando ingrese a la U en el pregrado de ingenieria agricola en el 2017 inicie estudiando programacion con C++, luego conoci Java y la POO.
+
+Tengo dos años de experiencia en desarrollo de software. Inicie desarrollando paginas y sitios web con las tecnologias principales HTML, CSS y JS. Luego, me involucre en el desarrollo fullstack de aplicaciones, las primeras tecnologias que aprendi fue el stack de MERN y en los ultimos dos años mi experiencia se ha enfocado en el desarrollo fullstack  de software en Java, SpringBoot y angular. En el que he realizado tareas como: ______
+
+
+
+
+### NEORIS
+Buen dia, me interesa la ofera de desarrollador Microservicios, la oferta menciona el uso de un amplia variedad de tecnologias Java, Nodejs, NextJs..., mi especializacion es el desarrollo fullstack, y tengo un amplio conocimientos en muchas de las tecnologias requeridas, esta requiriendos bastantes y por eso mismo me interesa la oferta, quiero continuar fortaleciendo mi perfil con mas y nuevas tecnologias, involucrarme en proyectos grandes que requieran de mucha responsabilidad, me apasiona trabajar en proyectos innovadores que tengan gran impacto. Muchas gracias por escucharme.
+
+
+
+
+
+********************************************************************************************************************************
+				Primeras impresiones
+********************************************************************************************************************************
+
+### Porque quieres ser parte de esta empresa
+Quiero ser parte de este reto porque me entusiasma la idea de formar parte de un equipo aventurero, que tiene muy claro su propósito, cuidar su entorno multiplicando experiencias exitosas, su equipo de trabajo conectado con el crecimiento, una cultura de mejora continua y colaborativa, donde podre encontrar retos técnicos y personales, donde podre sacar todo mi potencial y contribuir de manera significativa al éxito del equipo, por eso quiero hacer parte de este reto, nuestros objetivos están alineados, es la oportunidad perfecta para aplicar y expandir mis habilidades como desarrollador FullStack y ser un miembro valioso para el equipo.
+
+
+
+###
+Cuéntanos qué te gustaría encontrar en tu próximo reto laboral?
+
+En mi próximo reto laboral, como desarrollador full stack, me gustaría encontrar un entorno que ofrezca responsabilidades desafiantes y trabajar en equipos abiertos a desarrollar software con tecnologías y herramientas actuales, permitiendo crear soluciones modernas e innovadoras. Me interesaría estar en una compañia que me permita crecer y mejorar constantemente como desarrollador y persona.
+
+
+
+
+### Resumen Experiencia
+Mi experiencia se enfoca en el desarrollo de aplicaciones web mediante el lenguaje Java, haciendo uso de tecnologías y herramientas para su desarrollo como Spring, SpringBoot, Spring Security, JWT, construcción y consumo de API’s con el modelo arquitectónico RESTful,  utilizando tecnologías como Hibernate, JPA, Jackson, relaciones entre tablas, validaciones de campos, implementación de Excepciones personalizadas. 
+
+Me encargo de Desarrollar software siguiendo arquitecturas o principios como: principios SOLID, patrón DAO, patrón DTO, arquitectura en capas, MVC, REST y Microservicios, construidas en Maven, implementando una variedad de dependencias y plugins para un desarrollo robusto, completo y escalable. Poseo solidos conocimientos en Bases de datos relacionales como MySQL, SQLServer, PostgreSQL y de memoria como SQLite o H2.
+
+
+### Cuanto tiempo de experiencia en posiciones afines
+A pesar de no contar con experiencia en una empresa, mi viaje de aprendizaje ha sido intensivo y altamente enfocado en el desarrollo Java. He pasado innumerables horas investigando y trabajando en proyectos personales para perfeccionar mis habilidades. Mi determinación y mi deseo incansable de dominar este lenguaje se reflejan en mi profundo conocimiento de Java y su aplicación práctica.
+
+
+
+********************************************************************************************************************************
+				Perfil
+********************************************************************************************************************************
+
+Desarrollador de software con experiencia en Java, utilizando frameworks como SpringBoot y Angular, 
+
+
+
+
+
+********************************************************************************************************************************
+				Experiencia
+********************************************************************************************************************************
+
+	SoftwareOne
+
+-Mejorar y mantener el sistema existente usando herramientas y servicios Cloud.
+-Implementación de nuevas funcionalidades siguiendo metodologías ágiles (Scrum, Kanban).
+-Trabajar proactivamente en el análisis, trazabilidad y resolución de incidencias.
+-Trabajo colaborativo con ramas, merge, versionado de código usando Git y GitFlow.
+-Realizar pruebas y depuración de nuevas funcionalidad garantizando su calidad.
+-Desarrollar código usando buenas practicas, principios SOLID, KISS, DRY y de diseño web.
+
+
+
+
+
+
+
+
+
+
+********************************************************************************************************************************
+				Tecnologías
+********************************************************************************************************************************
+
+
+Java | JavaScript | HTML | CSS | TypeScript | Angular | SpringBoot | SpringSecurity | Spring JDBC | Spring Data | MySQL | PostgreSQL | SQLite | DBeaver | MongoDB | API Rest | GraphQL
+
+
+
+
+
+	JAVA - BACKEND
+
+He estado trabajando con Java durante un año y medio como parte de mi formación y en proyectos personales.
+
+-He adquirido un conocimiento sólido de los fundamentos de Java, incluyendo la programación orientada a objetos, el manejo de excepciones, la gestión de hilos y el uso de librerías y frameworks populares.
+-Construcción y consumo de API’s con el modelo arquitectónico RESTful, GraphtQL.
+-Implementación de módulos de Spring como SpringBoot, Spring Security, Spring Data, JPA, JDBC.
+-Bases de datos relacionales: MySQL, PostgreSQL, SQLite, Azure, Dataverse
+
+
+	FRONTEND
+
+-A nivel de frontend, tengo experiencia en el uso de JavaScript y TypeScript, que son fundamentales para el desarrollo en Angular y React. Además, he trabajado con HTML5 y CSS3 para la creación de interfaces de usuario atractivas y funcionales
+
+-Tecnologías: Angular, Angular material, Bootstrap, Bootswatch, Tailwind, Astro
+
+Estoy comprometido con aprender nuevas tecnologías y las herramientas necesarias para desempeñarme con excelencia en el proyecto que desee aprovechar de mis habilidades y capacidades como desarrollador.
+
+
+
+
+	Programacion Reactiva
+
+He dedicado mas de un año a aprender y trabajar en proyectos personales con programación reactiva. 
+
+-He implementado formularios que reaccionan instantáneamente a las entradas del usuario.
+-En proyectos que involucraban llamadas a API externas, utilicé programación reactiva para manejar las respuestas asincrónicas de manera eficiente
+-Uso de observables para gestionar flujos de datos complejos y asegurar una manipulación adecuada de errores.
+
+
+
+
+
+
+
+********************************************************************************************************************************
+				Preguntas
+********************************************************************************************************************************
+**Preguntas generales (Tiempo experiencia, disponibilidad, expectativas salariales)
+
+¿Cual es su nivel académico?
+¿Tiene disponibilidad para realizar prueba técnica?
+¿Cuentas con disponibilidad inmediata?
+
+
+********************************************************************************************************************************
+
+
+¿Cual es su nivel académico?
+7 semestres de ingenieria, un tecnico en programacion de aplicaciones y un diplomado en desarrollo fullStack
+
+
+********************************************************************************************************************************
+
+¿Tiene disponibilidad para realizar prueba técnica?
+Si, las tecnologías que puedo usar para la prueba técnica serian:
+-Java, SpringBoot, SpringSecurity, Angular, REST, GrahpQL, Docker, Git, Maven, etren otras.
+
+********************************************************************************************************************************
+
+¿Cuentas con disponibilidad inmediata?
+Tengo disponibilidad para incorporarme a partir del 11 de septiembre.
+
+
+
+********************************************************************************************************************************
+				Tecnologías
+********************************************************************************************************************************
+
+
+
+
+
+********************************************************************************************************************************
+				PROMPTS
+********************************************************************************************************************************
+
+### Preguntas sobre Java
+Tienes razón en enfocar tu carta de presentación en vender tu perfil
+
+
+###
+Responderás a las siguientes preguntas como si fueras un postulante ficticio sin experiencia laboral, pero con las habilidades para la oferta de trabajo: "Desarrollador FullStack (Java reactivo + Angular o React)" 
+-Debes responder con la intención de dejar la mejor impresión como un gran candidato para la vacante.
+
+
+
+
+
+Eso no es lo suficientemente persuasivo para obtener la vacante
+
+Como podrias mejorar la respuesta anterior para que sea tan increible que cualquier persona que te escuche piense que la experiencia que tu tienes es superior a la de alquien que trabaja en una empresa
+
+
+Pregunta:
+¿Cuántos años de experiencia tienes en programación reactiva?*
+
+
+
+### Ayuda programacion
+Gracias, ahora, ¿cuales seran las profesiones o perfiles mejor pagadas del area de Tecnología de la Información en el futuro?
+
+###
+Dame un ejemplo de la descripcion para un proyecto de software full stack que se podria agregar en CV o portfolio
+
+
+###
+Claro, aquí tienes una breve descripción del desarrollo de tu propio portafolio que podrías incluir en el portafolio:
+
+###
+Dame un ejemplo ficticio de la experiencia de un año de un desarrollador de datos, breve, corto e interesante
+
+
+###
+Dame la descripcion que pondrias en tu portafolio para los siguientes proyectos que un desarrollador construyo:
+
+-Portafolio
+-Pagina web para tienda de regalos
+-APP MVC para GYM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+Eliminar campos
+-
+
+
+Adicionar Campos
+-Rural o Urbano
+
+
+
+Tabla listado
+**Nombre
+**Fecha inicio practica
+**
+
+
+*Listado para aprobacion
+*Descargar archivos PDF
+
+
+
+
+Requerimientos
+-descargar solicitud por fecha seleccionada
+-fecha de inicio fecha de finalizacion
+-Filtrar por fecha, por estado
+-Sacar reporte de todos los campos, aprobados, rechazados en un periodo de fecha definido
+	-Fechas, estado, modalidad de practicas
+	-Categoria de todos o seleccionar todas las fechas
+-Flujo para descagar reportes y devovlerse para aprobar
+	-Descargar documentos
+
+
+-Profe, conctact o estudiante puedan verificar los resultados y consultar el estado de afiliacion
+	-Gestion de usuarios
+	-Pueda descargar el certificado
+
+
+-Aprobamos o devovlemos con el usuario
+	-Que ocurre si se elimina el usuario
+
+
+-Donde llegan las solicitudes?
+	-Se pueden verificar las solictudes que hay pendientes?
+	-Hya notificaciones de las solictudes que llegaron ayer, hoy
+-Hay solictudes devueltas?
+-
+
+
+
+
+
+Periodo 23 v05
+Ajuste de pasantia
+
+
+
+
+
+HU
+-Enviar solicitudes
+-Ver solicitudes
+-Aprobar o desaprobar solicitudes
+-Agregar y modificar admins
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

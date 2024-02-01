@@ -1,0 +1,813 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************************************************************
+********************************************************************
+********************************************************************
+********************************************************************
+
+		NOTAS
+
+-Hacer una lista de las actividades que realice
+-Mencionar funciones especificas, relevantes y modernas
+
+-Estudiar los conceptos y sintaxis clave: Java - Spring - Angular - AWS
+-Como usar inteligencia artificial para desarrollar
+
+
+
+******************************************
+
+TODO
+
+-App Library Management
+-Proyecto de microservicios con Java y DynamoDB
+-Empleo: Dev FullStack, Dev Cloud 
+
+Crear Proyectos: ANGULAR, Java - AWS
+
+-Angular, 
+-Java, Kotlin, .NET, NodeJS
+-PostgreSQL, OracleDB
+-Entrevista: Conceptos, temas, estudiar, repasar
+
+
+******************************************
+******************************************
+
+# Tecnologias:
+-PostgreSQL
+-NodeJS
+-
+-
+
+
+******************************************
+******************************************
+******************************************
+
+
+2017 Universidad Nacional
+
+Hace 6 anios inicie a crear proyectos de programacion
+5 desarrollar sitios web con HTML, CSS Y JS
+4 anos inicie con el stack de MERN
+3 Anos inicie con Java y SpringBoot
+
+
+
+********************************************************************
+
+		CONTENIDO
+
+
+-Perfil
+-Datos personales
+	-Formacion academica
+	-Cursos
+-Experiencia Profesional
+
+
+
+********************************************************************
+
+		PERFIL		-> JAVA - ANGULAR - AWS
+
+Quien soy, tecnologias
+*El perfil es algo general, lo especifico sera en la experiencia
+
+Desarrollador de software con 4 años de experiencia en el diseño,  análisis y construcción de aplicaciones con Java, SpringBoot, C#, .NET en el Backend y HTML, CSS, JavaScript, Angular en el Frontend, experto en integrar en APPs los servicios de AWS. Trabajando en equipos multidisciplinarios bajo metodologias Scrum, Kanban y DevOps.   
+
+
+Backend configuracion de base de datos hasta el despliegue de microservicios
+Frontend diseno de interfaces UI/UX hasta construccion de componentes para aplicaciones SPA
+
+
+Trabajando bajo metodologias SCRUM, Kanban, DevOps
+
+con experiencia 
+en backend integrando APIs, servicios externos e integracion con AWS
+en frontend desarrollando interfaces intuitivas con diseno UI/UX
+
+Java, SpringBoot, C#, ASP.NET, NodeJS, Express
+JavaScript, Angular
+
+
+
+********************************************************************
+
+		DATOS PERSONALES
+
+
+Johan Alexis Chavarria Bustos
+25 años
+
+# Formacion academica
+Tecnico en programacion de aplicaciones y servicios para la nube
+SENA
+
+Ingenieria agricola
+UNAL
+
+
+# Cursos
+Desarrollador backend
+UD
+
+Desarrollador fullstack de aplicaciones web
+UTP
+
+Desarrollador de aplicaciones de escritorio con JAVA
+UTP
+
+Programacion orientada a objetos en Java
+SENA
+
+Diseno de videojuegos en tercera persona con unity
+SENA
+
+*JavaSE 8
+*JavaEE 7
+
+
+********************************************************************
+
+
+		EXPERIENCIA
+
+Desarrollador Full Stack			Septiembre 2023 - Actual
+CUN - Corporacion Unificada Nacional
+
+Analista de software - Aprendiz			Noviembre 2022 - Mayo 2023
+SoftwareOne
+
+Desarrollador web				Octubre 2020 - Noviembre 2022
+Freelance
+
+Desarrollador Frontend				Febrero 2020 - Octubre 2020
+Workana
+
+
+
+
+
+
+## Desarrollador Full Stack			
+CUN - Corporacion Unificada Nacional
+
+-Desarrollar endpoints REST para la interacción entre sistemas.
+-Levantamiento de requerimientos, diseno y construccion de API Rest.
+-Implementar sistemas de autenticación como OAuth, JWT y SpringSecurity
+-Consumir datos de APIs y crear la interfaz utilizando Angular.
+-Almacenar y administrar datos en la nube con RDS, DynamoDB o S3.
+
+
+## Analista de software - Aprendiz			
+SoftwareOne
+
+
+-Realizar mantenimiento e implementar nuevos requerimientos a aplicaciones en produccion con Java y SpringBoot
+-Dividir la interfaz de usuario en modulos independientes en Angular.
+-Desarrollar un sistema de monitoreo para analizar errores en el software
+-Garantizar el funcionamiento optimo del CRM Dynamics365 con C#, .NET, JavaScript y Azure Services
+-Desarrollar logica para validar datos de entrada con reglas especificas.
+
+
+## Desarrollador web				
+Freelance
+
+**Pruebas tecnicas
+-Diseno, desarrollo e implementacion de microservicios con persistencia de datos en DynamoDB y gestion de peticiones con funciones Lambda. 
+-Desarrollo de APIs Rest, CQRS con SpringBoot
+-Conectar la logica de la aplicacion con sistemas de bases de datos como MySQL, PostgreSQL y OracleDB.
+-Construccion de interfaces de usuario dinamicas y responsivas utilizando Angular, HTML, CSS y TypeScript.
+
+
+## Desarrollador Frontend				
+Workana
+
+-Integrar graficos 3D interactivos en la interfaz de usuario para permitir la visualizacion 3D de productos en un sitio web
+-Ofrecer visualizacion de datos geograficos con interactividad para su analisis.
+-Implementar en un sitio web comunicacion instantanea y asincrona con WebSockets
+-Creacion de un dashboard interactivo para analizar datos en tiempo real.
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************************************************************
+************************************************************************
+-Empleo Java, AWS - sector financiero | Python?
+-Conceptos esenciales
+-Ajustar hoja de vida, un poco mas realista (ellos revisan la data)
+
+-Ingeniera de Sistemas
+
+-Ingles
+-Mis Habilidades 
+
+-Actividades al aire libre
+
+
+
+
+
+
+
+************************************************************************
+************************************************************************
+
+
+
+IP DB: 72.167.45.227 Usuario desarrollador_junior Contraseña: FabricaDigital2023!@#
+
+
+
+
+
+
+
+
+
+
+
+
+juan_forerog@cun.edu.co
+
+***************************************************************************
+
+Dos APIs:
+-SINU
+-Lector CC
+
+*Debe leer un txt con el numero o numero de cedula
+*Luego ir a SINU a traerla
+*Agarrar la cedula y crear un excel con los datos de la cedula
+
+
+1. Desarrollo (API, APP, ...) para leer un txt o excel con numero de cedula
+2. Luego, ir a SINU, obtener las cedulas validar la identidad
+3. Agarrar la info de las cedulas y crear el excel con los datos
+
+
+*Importar las colecciones de postman
+-Extraccion de documentos SINU
+-Servicios verificacion Identidad
+
+
+## APIs
+
+-ApiSPZoho
+
+
+-Validador de identidad
+
+
+
+
+
+***************************************************************************
+
+
+Generar el token e intentarlo varias veces en el metodo de consulta
+
+
+
+
+response.reqInscripcion.archivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

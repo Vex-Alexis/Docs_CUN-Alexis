@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Estilos específicos para el contenedor principal */
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        /* Contenido del Email */
+        .content{
+            padding: 0 20px;
+        }
+
+
+        /* Estilos para los encabezados */
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para los enlaces */
+        a {
+            color: #007bff;
+        }
+
+        /* Estilos para las secciones */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        /* Estilos específicos para el botón */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Estilos del banner */
+        .banner-container {
+            max-width: 700px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilos para hacer el diseño responsivo */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <!-- HEADER -->
+        <div class="banner-container">
+            <img class="banner-img" src="https://repocun.s3.us-east-2.amazonaws.com/fabrica_software/correo_arl/header-mailing.png" alt="Banner" />
+        </div>
+
+    <!-- CONTENT -->
+        <div class="content">
+            <h1>Solicitud de ARL Pendiente</h1>
+            
+            <div class="section">
+                <p>Estimado(a) {{Nombre}},</p>
+                <p>Esperamos que te encuentres bien. Queremos confirmarte que hemos recibido tu solicitud de ARL. Nuestro equipo se encuentra revisando tu solicitud y recibirás una notificación tan pronto como tengamos una actualización.</p>
+                <p>Gracias por tu paciencia y comprensión. Estamos trabajando para procesar tu solicitud lo antes posible.</p>
+                <p>Atentamente,</p>
+                <p>El equipo responsable de ARL</p>
+
+
+                <br>                
+                <p>Si tienes alguna duda no dudes en contactar a tu docente <a href="https://app.powerbi.com/view?r=eyJrIjoiZDhjZjNmMzYtM2I4Yi00YjBhLTkzNGMtN2NkNDM0ZjMyY2YyIiwidCI6IjUyMDlhOGNhLTc1ZGQtNGVhMy05MDc0LTZjMDAwMzMzMzQ4YiIsImMiOjR9">aquí</a>.</p>
+
+            </div>
+        </div>
+
+    <!-- FOOTER -->
+        <div class="banner-container">
+            <img class="banner-img" src="https://repocun.s3.us-east-2.amazonaws.com/fabrica_software/correo_arl/footer-mailing.png" alt="Banner" />
+        </div>
+    </div>
+</body>
+</html>

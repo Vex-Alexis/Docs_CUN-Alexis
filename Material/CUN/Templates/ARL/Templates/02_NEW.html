@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo Electrónico</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+        }
+
+        /* Estilos para los encabezados */
+        h1 {
+            color: #007bff;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Estilos para los párrafos */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Estilos para los enlaces */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Estilos para los botones */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Estilos para las secciones */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        /* Estilos para las imágenes */
+        .banner-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        /* Estilos para la sección destacada */
+        .highlight-section {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <h1>Bienvenido a Nuestra Comunidad</h1>
+
+        <!-- CONTENT -->
+        <div class="section">
+            <p>¡Hola {{Nombre}}!</p>
+            <p>Gracias por unirte a nuestra comunidad. Queremos darte la bienvenida y esperamos que disfrutes de nuestra plataforma.</p>
+            <p>En nuestra comunidad, encontrarás recursos, artículos interesantes y una red de personas apasionadas por el tema. ¡Esperamos que te diviertas y aprendas mucho!</p>
+            <p>No dudes en contactarnos si tienes alguna pregunta o necesitas ayuda. Estamos aquí para ti.</p>
+        </div>
+
+        <!-- HIGHLIGHT SECTION -->
+        <div class="highlight-section">
+            <h2>Conoce las últimas novedades</h2>
+            <p>No te pierdas nuestros próximos eventos y publicaciones destacadas.</p>
+            <a href="#" class="btn">Explora</a>
+        </div>
+
+        <!-- FOOTER -->
+        <img class="banner-img" src="https://via.placeholder.com/600x200" alt="Banner" />
+
+    </div>
+</body>
+</html>

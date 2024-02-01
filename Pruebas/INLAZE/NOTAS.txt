@@ -1,0 +1,368 @@
+
+Paginacion: curso leifer mendez
+
+
+
+********************************************************************
+********************************************************************
+
+		# NOTAS
+
+- NobreAPP: RedSocial
+- 
+
+
+
+
+
+********************************************************************
+********************************************************************
+
+
+		# CONTENIDO
+
+-
+-Requerimientos
+-Desarrollo
+-
+-
+
+-Datos
+-Prompts
+
+
+
+********************************************************************
+********************************************************************
+
+		# Requerimientos
+
+# Registro y Login JWT
+-Registrar usuarios
+-Inisicar sesion
+
+# Menu principal
+-Muro principal todos los posts
+-Permitir a usuarios publicar posts
+-Cada post debe aparecer apenas se publique
+
+# Tarjetas de Publicacion
+-Post: nombreUsuario, titulo, contenido y fecha de publicacion
+-Permitir editar y eliminar post del mismo usuario
+-Permitir dar like
+
+# Busqueda de mensajes
+-Implementar filtro para buscar post
+
+# Menu lateral
+*Debe incluir:
+-Informacion del usuario
+-Opcion para Editar informacion del usuario
+-Opcion para Cerrar sesion
+
+
+
+	# TODO
+
+-CRUD User
+-CRUD Post
+-Autenticacion JWT
+-Soft delete
+
+
+
+********************************************************************
+********************************************************************
+
+		# Desarrollo
+
+# Iniciar 
+- npm init
+- npm i dotenv cors express mongoose -S
+
+# Estructura
+app
+  controllers
+  helpers
+    handleError.js
+  models
+  routes
+  
+
+config
+  mongo.js
+
+.env
+.env.example
+app.js 
+
+
+# Modelos (MongoDB)
+-Requerir mongoose y crear schema para cada modelo
+
+# Rutas
+# Controladores
+# helpers
+
+# Middlewares
+-Validar los roles de cada usuario para proteger cada ruta
+-Vigilar el orign de la peticion 
+
+# JWT
+-npm install jsonwebtoken
+
+
+
+********************************************************************
+********************************************************************
+
+		## MATERIAL
+
+
+Entendiendo la arquitectura de Angular
+
+https://youtu.be/_t7f2k02Xbs
+
+
+
+
+
+
+********************************************************************
+********************************************************************
+
+
+
+
+
+
+
+********************************************************************
+********************************************************************
+
+		# Datos
+
+● User
+o FullName
+o Age
+o Email
+o Password
+o posts (relación con los posts del usuario)
+o createdAt
+o updatedAt
+o deletedAt
+
+● Post
+o Title
+o Content
+o Likes
+o CreatedAt
+o UpdatedAt
+o DeletedAt
+o userId (relación con el usuario)
+
+
+
+6317ca07bb9a8e69cbe6bfd1
+6317c6d11f080c2eab4e724b
+6317c8b499e9584bfaf79628
+
+
+
+********************************************************************
+********************************************************************
+
+
+		# Prompts
+
+# Red Social INLAZE
+
+- conexion a la base de datos es el siguiente, ayudame a justarlo o dime que buenas practicas podria incluir
+
+-Dame ejemlos de funciones personalizadas que podria implementar en mi codigo y servicios
+
+-el campo "deletedAt" como lo gestiono
+
+-seguir una arquitectura y patrones de diseño similares
+
+
+# Iniciar Proyecto NodeJS
+- el campo "deletedAt" como lo gestiono
+
+
+
+
+
+********************************************************************
+********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
