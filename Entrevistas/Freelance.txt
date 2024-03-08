@@ -1,0 +1,60 @@
+	# 2 años Freelance
+
+
+# Cliente: GreenCommerce Solutions.
+-Proyecto: Desarrollo de Plataforma E-Commerce Ecológica
+-Tiempo: 2 meses
+-Funciones: 
+	-Diseño y desarrollo del carrito de compras y la interfaz de pago.
+	-Integración de métodos de pago
+
+# Cliente: HealthFit Technologies.
+-Proyecto: Plataforma de Bienestar y Actividad Física
+-Tiempo: 3 meses
+-Funciones:
+	-Desarrollo de la función de seguimiento de actividad física
+	-Creación de paneles de control personalizados para usuarios.
+
+# Cliente: EcoSolutions International.
+-Proyecto: Aplicación Sostenible de Seguimiento Ambiental
+-Tiempo: 4 meses
+-Funciones:
+	-Desarrollo de módulos de usuario utilizando Angular.
+	-Implementación de notificaciones al Email
+
+# Cliente: Tech Innovators Ltd.
+-Proyecto: Desarrollo de Plataforma de Gestión Empresarial
+-Tiempo: 3 meses
+-Funciones:
+	-Integración con APIs de terceros para la gestión de documentos.
+	-Implementación de módulos de recursos humanos.
+
+# Cliente: FinanceHub Innovations.
+-Proyecto: Aplicación de Gestión Financiera Empresarial
+-Tiempo: 4 meses
+-Funciones:
+	-Desarrollo de módulos de contabilidad y presupuesto.
+	-Implementación de seguridad robusta para transacciones financieras.
+
+
+# Cliente: Camixpresiones
+-Proyecto: Sitio web para tienda de regalos
+-Tiempo: 1 mes
+-Funciones:
+	-Creación de la interfaz para los clientes.
+	-Desarrollo de un sistema de gestión de inventario
+	-Integración de pasarelas de pago como PayPal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
